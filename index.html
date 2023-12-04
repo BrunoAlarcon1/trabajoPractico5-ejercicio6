@@ -23,7 +23,19 @@
 </head>
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <h1 class="text-align: center;">Temporizador</h1>
+        <section></section>
+     
+        <div id="contenedor-temporizador">
+           <p class="temporizador">00 : 00</p>
+           <input type="text" placeholder="Ingrese un numero" id="inputTiempo"> 
+           <button type="button" class="btn btn-primary" onclick="iniciarTiempo()">Iniciar</button>
+           <button type="button" class="btn btn-secondary" onclick="pausarTemporizador()">Pausar</button>
+           <button type="button" class="btn btn-danger" onclick="resetearTemporizador()">Reset</button>
+        </div>
+    </main>
+
     <footer></footer>
 
     <script
